@@ -1,14 +1,14 @@
-[image1]: ./images/confusion.png "Confusion Matrix"
-[image2]: ./images/objects_white.png "Object Clusters"
-[image3]: ./images/pt.png "Pass-through filtering"
-[image4]: ./images/ransac.png "RANSAC Plane Segmentation"
-[image5]: ./images/stat_out.png "Statistical Outlier Removal"
-[image6]: ./images/vox.png "Vox Downsampling"
-[image7]: ./images/world_1.png "Labeled Objects in World 1"
-[image8]: ./images/world_2.png "Labeled Objects in World 2"
-[image9]: ./images/world_3.png "Labeled Objects in World 3"
-[image10]: ./images/world_pc.png "Direct Camera Feed"
-[image11]: ./images/world_3_cloud.png "Cloud of detected objects in World 3"
+![image1]: ./images/confusion.png "Confusion Matrix"
+![image2]: ./images/objects_white.png "Object Clusters"
+![image3]: ./images/pt.png "Pass-through filtering"
+![image4]: ./images/ransac.png "RANSAC Plane Segmentation"
+![image5]: ./images/stat_out.png "Statistical Outlier Removal"
+![image6]: ./images/vox.png "Vox Downsampling"
+![image7]: ./images/world_1.png "Labeled Objects in World 1"
+![image8]: ./images/world_2.png "Labeled Objects in World 2"
+![image9]: ./images/world_3.png "Labeled Objects in World 3"
+![image10]: ./images/worldpc.png "Direct Camera Feed"
+![image11]: ./images/world_3_cloud.png "Cloud of detected objects in World 3"
 
 # 3D Perception Pipeline
 In this project we attempt to identify objects from their RGBXYZ representations encoded from an RGBD camera. As part of a larger pick and place / categorize project, we need our robot to identify certain objects and decide in which box to place them. This project currently only focuses on the perception portion of the problem. We present a Linear SVM classifier which given the RBGD representations of the pretrained objects is able to classify them to an accuracy of 87.8%, which is enough to prevent overfitting. 
@@ -83,6 +83,6 @@ World 1
 World 2
 [image8]
 World 3
-[image9]
+[image9][image11]
 
 
