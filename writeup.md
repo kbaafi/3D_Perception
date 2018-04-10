@@ -79,12 +79,16 @@ The below shows the effect of clustering on the RANSAC segmented cloud. As you c
 For each object obtained in the preceeding step, we can now perform feature extraction and classification using the same methods described in the training phase. There are three working environments and for each environment, we output the list of detected objects and the locations into which they are to be placed. The below shows the results of our 3D object detector
 
 World 1
+
 ![image7]
 
 World 2
+
 ![image8]
 
 World 3
-![image9]   ![image11]
+
+![image9]   
+![image11]
 
 
